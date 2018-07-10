@@ -14,6 +14,7 @@ This is an ongoing log of my 100 days of Machine Learning challenge
 <b>Link to work:</b> https://github.com/lthh91/Starcraft-Python-AI---Huy-Mai </b>
 
 <h3>Day 3 - Tuesday, July 10th, 2018 </h3>
-<b>Today's Progress:</b> My AI can now complete a game with quite good results. The strategy is still hard coded, but it already beat a Computer bot at Medium Difficulty
+<b>Today's Progress:</b> My AI can now complete a game with quite good results. The strategy is still hard coded, but it already beat a Computer bot at Medium Difficulty. I expect to apply some kind of learning algorithm tomorrow.
 
-<b>Link to work:</b> https://github.com/lthh91/Starcraft-Python-AI---Huy-Mai </b>
+<b>Link to work:</b> https://github.com/lthh91/Starcraft-Python-AI---Huy-Mai
+<b>Link to video:</b> https://www.facebook.com/capital91/videos/1877572995599413/?notif_id=1531248924848114&notif_t=video_processed
