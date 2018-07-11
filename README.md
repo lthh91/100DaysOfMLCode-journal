@@ -18,3 +18,8 @@ This is an ongoing log of my 100 days of Machine Learning challenge
 
 <b>Link to work:</b> https://github.com/lthh91/Starcraft-Python-AI---Huy-Mai
 <b>Link to video:</b> https://www.facebook.com/capital91/videos/1877572995599413/?notif_id=1531248924848114&notif_t=video_processed
+
+<h3>Day 4 - Wednesday, July 11th, 2018 </h3>
+<b>Today's Progress:</b> Applying machine learning into the AI is more complicated than I thought it would. I think part of the reason was that I do not have much knowledge of the game itself, so I only tried to make the machine fine-tuned those variables that I previously hard-coded using Q-Learning. Apparently, that did not make many differences, since there are quite a few other variables that I need to take into consideration to win such a complicatedly strategic game. I don't think I have yet enough knowledge (regarding the game, and regarding Reinforcement Learning) and patience to create that many variables, and I don't think my machine can even handle that much learning at once. I will try to find another solution tomorrow.
+
+<b>Link to work:</b> https://github.com/lthh91/Starcraft-Python-AI---Huy-Mai
