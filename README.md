@@ -35,3 +35,10 @@ I never had any experiences with OpenCV, but I think I will be able to gather en
 <b>Today's Progress:</b> Today I was not productive at all. For some reason I woke up at 4am and could not go back to sleep, so I felt tired all day. Anw, I found that Starcraft has a headless version, which seems to run only in Linux (well, a headless version is the game without its front-end side, which made only AI possible to play it), so I spent my whole morning setting up the old 10-euro HP Compaq desktop in my house to run it (should've taken much less time if I didn't kept changing my mind towards to arrangement of the device). Anw, it is working perfect. After 100 games, my AI won 11 (not bad, in my opinion), and together with 7 games the AI won in the normal version yesterday, right now I'm having 18 games ready to train my model. I'm letting the AI run through the night for another 1000 games and see how it goes and will set up a classification algorithm (a neural net) with that data.
 
 <b>Link to work:</b> https://github.com/lthh91/Starcraft-Python-AI---Huy-Mai
+
+<h3>Day 7 - Saturday, July 14th, 2018 </h3>
+<b>Today's Progress:</b> Today I set up a neural net using keras. I only trained it with the 18 won games I had (although the Linux machine has given me 31 more since last night). There will be more adjustments coming in the next days, but basically the code is ready to run. I added a new library "HuyAIrunning.py" to store the playing class (the bot that used the trained model to play), and the original HuyAI.py was changed to HuyAItraining.py, as it was used to get training data. The AI seems to be still very "dumb" now, as it won none in 5 games, but I hope everything's gonna be better with more data.
+
+On the next step: I think I will need to run it on some kind of server with the full dataset, as well as fine-tune the model. See you all tomorrow!
+
+<b>Link to work:</b> https://github.com/lthh91/Starcraft-Python-AI---Huy-Mai
