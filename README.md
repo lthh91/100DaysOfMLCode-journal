@@ -42,3 +42,10 @@ I never had any experiences with OpenCV, but I think I will be able to gather en
 On the next step: I think I will need to run it on some kind of server with the full dataset, as well as fine-tune the model. See you all tomorrow!
 
 <b>Link to work:</b> https://github.com/lthh91/Starcraft-Python-AI---Huy-Mai
+
+<h3>Day 8 - Sunday, July 15th, 2018 </h3>
+<b>Today's Progress:</b> Today is the World Cup final day, so I kind cut it short. Anyway, I trained the model with full data (using notebooks.csc.fi), and it seems to me that the bot really performed better than before, though there were still lost games. The biggest issue lies on the computing capacity, as I need to run tensorflow and keras in every iteration, the game gets very laggy on my laptop (whose GPU, unfortunately, is not supported by CUDA and Tensorflow). The trained model file is very heavy (>400 Mb) and can't even be uploaded to Github, but with the data I provide, you can get a somewhat similar model as mine by running the file training-model.py.
+
+I guess with the learning purpose, this project was a success, though I am very sure I can improve it way further if I have access to better hardware. I think I will take on with a new project and maybe come back to this one in a more suitable time.
+
+<b>Link to work:</b> https://github.com/lthh91/Starcraft-Python-AI---Huy-Mai
