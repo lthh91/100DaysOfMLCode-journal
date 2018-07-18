@@ -49,3 +49,10 @@ On the next step: I think I will need to run it on some kind of server with the 
 I guess with the learning purpose, this project was a success, though I am very sure I can improve it way further if I have access to better hardware. I think I will take on with a new project and maybe come back to this one in a more suitable time.
 
 <b>Link to work:</b> https://github.com/lthh91/Starcraft-Python-AI---Huy-Mai
+
+<h3>Day 8 - Wednesday, July 18th, 2018 </h3>
+<b>Today's Progress:</b> After finishing the last project, I still had my mind on it for awhile, and couldn't decide what to do next. In the end, today I decided to make some small projects, that makes myself familiar with the OpenAI Gym library, the library that I was working on in day 1. I now finished the very first environment, the cartpole, which simply contains a plank with a ball on it. Your task is to balance the plank, so that the ball stays on it as long as possible. Granted that this project is a much easier version of what I did in StarCraft AI project, the fundamentals are the same, and since it requires much less computing resources, the result is much easier to observe: In my latest test run, after a simple neural net training, the average score increased from 22.3 to 192.3.
+
+In next few days, I will apply the same logic (and maybe some other algorithms) with other environments in OpenAI Gym, as I started to feel comfortable with the environment. I also have some ideas to improve the StarCraft AI project, so even though I said I would not come back to that in a near future, who knows :))
+
+<b>Link to work:</b> https://github.com/lthh91/OpenAI-Example
