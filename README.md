@@ -56,3 +56,8 @@ I guess with the learning purpose, this project was a success, though I am very 
 In next few days, I will apply the same logic (and maybe some other algorithms) with other environments in OpenAI Gym, as I started to feel comfortable with the environment. I also have some ideas to improve the StarCraft AI project, so even though I said I would not come back to that in a near future, who knows :))
 
 <b>Link to work:</b> https://github.com/lthh91/OpenAI-Example
+
+<h3>Day 10 - Thursday, July 19th, 2018 </h3>
+<b>Today's Progress:</b> A question that has been in my head since I did the Q-Learning Table in FrozenLake environment (day 1): Why Q-Learning, when it seems unable to provide the shortest solution? My idea is: if we can "punish" the algorithm for lengthening the solution, eventually we can get the shortest way possible to come from Start to Goal without bumping on any of the Holes. To demonstrate the idea, today I recreated the FrozenLake using pure python (and numpy), rather than adopting the built environment from OpenAI Gym, and added some changes (a "punishment" of 1 points for each additional step). What I ended up with turned out to be some sort of Monte Carlo simulation, which, theoretically, can provide optimal result without "learning" process. However, I have to admit that in reality it was freaking slow for the game to converge. Seems that Q-Learning still has some advantages in this game: it always gives a possible solution, without costing too much computing resource.
+
+<b>Link to work:</b> https://github.com/lthh91/FrozenLake-Montecarlo
