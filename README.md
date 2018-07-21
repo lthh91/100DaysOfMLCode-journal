@@ -66,3 +66,10 @@ In next few days, I will apply the same logic (and maybe some other algorithms) 
 <b>Today's Progress:</b> I have been envying the game FlappyBird for years: it is simple, but it was a bomb when it was first introduced, and it amazed all of us, maybe because of its simplicity. Never been a good player myself, I decided to make an AI to play the game. Problem is that I couldn't find a version of FlappyBird that runs in Python, so I decided to make it. Though I never did any Pygame project, it was simple enough, and fortunately the necessary media (images and sounds) of the game are freely available all over the Internet. The game was FlappyBird cloned using Pygame, so here comes the name FlapPygame.
 The video was me playing the newly built game (it seems that I made the game kinda harder than the original version). Tomorrow, I'm gonna deploy the AI.
 <b>Link to work:</b> https://github.com/lthh91/FlapPygame
+
+
+<h3>Day 12 - Saturday, July 21st, 2018 </h3>
+<b>Today's Progress:</b> Today I edited some rules for the FlapPygame, and developed a headless version, which only required python 3 and numpy to run, to generate training data. The logic is simple: at every iteration (i.e. a frame in the game), the AI randomizes whether it taps or doesn't tap on the screen, and we record the data if it manages to win. At first, I had expected that there should be a threshold, or minimum point to be considered "winning" the game, but in the end, since passing every tube is the same, I decided that it would be much faster to record a new data every time the AI passes a tube. I am letting the file run in a server, it should be enough data by tonight.
+
+Btw, I am thinking of creating a blog to post more details of my projects (and maybe I will post some tutorials of what I've done). What do you guys think? Comment below, pls!
+<b>Link to work:</b> https://github.com/lthh91/FlapPygame
