@@ -73,3 +73,15 @@ The video was me playing the newly built game (it seems that I made the game kin
 
 Btw, I am thinking of creating a blog to post more details of my projects (and maybe I will post some tutorials of what I've done). What do you guys think? Comment below, pls!
 <b>Link to work:</b> https://github.com/lthh91/FlapPygame
+
+<h3>Day 13 - Sunday, July 22nd, 2018 </h3>
+<b>Today's Progress:</b> Due to my carelessness with the data generator, I caused myself a big trouble today. First, I woke up late and found that the server session I set up the previous night had gone (due to a 10-hour limit regulation of the server), then after another 10-hour session (which resulted in a bunch of data), I realized that I'd forgotten to include the labels (i.e. the choice of tap/no tap), so long story short, twenty hours of almost no result. Good news is that in the meantime, I've already set up the data mining and the neural net, so that it's ready to go once we have the data. And once we got the model, well, we'll see how good the AI gets with the game.
+<b>Link to work:</b> https://github.com/lthh91/FlapPygame
+
+<h3>Day 14, 15, 16 - July 23rd - 25th, 2018 </h3>
+
+I have to say I have been through days of hard work with very little result. For some reason, my neural network keeps results in 0, no matter what the input is, and my poor bird, therefore, simply fell without any slightest consideration of flap her wings (well, ironically, the wings still flap, if we look at the graphics). I tried everything I could: change the network parameters, the hidden layer size, the optimizers, etc. I even deleted my whole database and set up 11 computers (3 of my own and 8 on clouding services) to generate new data. With almost 2 Gb of data, the result still did not improve.
+
+The network building step was the one I considered easiest to pursue, but turns out I still have a lot to learn about it. I am working hard to find out the source of issue, but can't say for sure how long it's gonna take. If anyone can shed some light on the issue, I will be deeply grateful. Unfortunately, because of the size limit of Github, I cannot upload the dataset, but I will upload the model and update the data collecting process on readme file.
+
+<b>Link to work:</b> https://github.com/lthh91/FlapPygame
